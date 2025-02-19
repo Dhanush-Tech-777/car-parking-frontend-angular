@@ -1,0 +1,6 @@
+<form (ngSubmit)="onSubmit()">
+    <input [(ngModel)]="vehicle.licensePlate" name="licensePlate" placeholder="License Plate" required>
+    <input [(ngModel)]="vehicle.vehicleType" name="vehicleType" placeholder="Vehicle Type" required>
+    <input [(ngModel)]="vehicle.slotId" name="slotId" placeholder="Slot ID" required>
+    <button type="submit">Park Vehicle</button>
+  </form>
